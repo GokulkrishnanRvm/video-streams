@@ -16,7 +16,7 @@ import Loading from './componants/Loading';
 const Video = () => {
    const  {video,loading}  = useGlobalContext();
     // console.log(video);
-   if ((video.length < 1)) {
+   if ((video.length < 1) &&  !loading) {
       return (
       <main className='section'>
         <h2 className='section-title'>
