@@ -20,7 +20,7 @@ const Video = () => {
       return (
       <main className='section'>
         <h2 className='section-title'>
-        no cocktails matched your search criteria
+        Oops try something else...
        </h2>
       </main>
     )}
