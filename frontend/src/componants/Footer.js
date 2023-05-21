@@ -18,6 +18,8 @@ const Wrapper =styled.section`
   align-items: center;
   background: var(--clr-grey-4);
   text-align: center;
+  margin-top: auto;
+  bottom:0;
   span {
     color: var(--clr-primary-5);
   }
